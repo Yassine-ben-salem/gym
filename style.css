@@ -155,7 +155,7 @@ text-transform: uppercase;
 }
 
 .hero{
-    background-image: url(/images/main.jpg);
+    background-image: url("images/main.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
