@@ -1,0 +1,77 @@
+.trainer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.trainer-list li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.trainers-photos{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.trainers-photos img
+ {
+    width: 400px;           
+    height: 400px;          
+    object-fit: cover;      
+    border-radius: 10px;    
+    margin: 10px;           
+}
+
+.trainers-photos img:hover{
+    transform: scale(1.05);  
+    box-shadow: 0 0 15px rgba(71, 71, 71, 0.7); 
+    transition: 0.3s;       
+}
+
+
+@media (max-width: 768px) {
+    .trainers-photos,
+    .classes-photos,
+    .coaches-photos {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center;
+    }
+}
+
+.trainers-description {
+    color: white;
+    margin-top: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trainers-description div {
+    display: inline-block;
+    margin: 0 20px;
+    width: 300px;
+}
+
+.title{
+    text-align: center;
+    font-size: 4em;
+    color: rgb(236, 236, 236);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-shadow: 0px -30px 20px rgba(224, 224, 77, 0.5);
+}
+
+.description{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: larger;
+}

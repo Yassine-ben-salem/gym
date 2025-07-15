@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitZone Gym</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Yass Gym</h1>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#we">WHO WE ARE</a></li>
+        <li><a href="#team">MEET THE TEAM</a></li>  
+        <li><a href="#pricing">MEMBERSHIPS</a></li>
+        <li class="contact"><button class="contact-button">CONTACT</button>
+          <div class="dropdown">
+            <a href="mailto:info@fitzone.com">Email Us</a>
+            <a href="https://wa.me/54080196">Call Us</a>
+            <a href="https://www.google.com/maps/place/FitZone+Gym" target="_blank">Find Us</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>THE ONLY <br> IMPOSSIBLE <br> JOURNEY IS <br> THE ONE YOU <br> NEVER BEGIN.</h1>
+      <a href="#signup" class="join">BEGIN YOUR JOURNEY </a>
+    </div>
+  </section>
+
+  <section class="about" id="we"> >
+    <h2 class="who-are-we">Who We Are</h2>
+    <div class="we"><img src="images/3d-rendering-black-dumbbells-floor-dark-concept-fitness-room-with-training-equipments-back_67155-14961.avif"alt="Gym Image" loading="lazy" />
+        <p>Welcome to Yass Gym.<br><br>
+        At Yass Gym, we believe in the power of fitness to transform lives. Our state-of-the-art facility is designed to help you achieve your fitness goals, whether you're a beginner or a seasoned athlete.<br><br>
+        Join us and become part of a community that supports and motivates each other every step of the way.<br><br>
+        At Yass Gym, we’re more than just a fitness center.<br>
+        We are a community of dedicated professionals helping you become your best self through strength,
+        discipline, and consistency.</p>
+      </div>
+  </section>
+
+ 
+  <section class="services" id="team">
+    <h2 class="what-we-offer">What We Offer</h2>
+    <div class="cards">
+      <a href="personal-trainers.html" class="card" target="service-frame">Personal Training</a>
+      <a href="nutrition-coaching.html" class="card" target="service-frame">Nutrition Coaching</a>
+      <a href="group-classes.html" class="card" target="service-frame">Group Classes</a>
+    </div>
+    <iframe id="service-frame" name="service-frame" src="personal-trainers.html"></iframe>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h2 class="membership-plans">Membership Plans</h2>
+    <div class="price-cards">
+      <div class="price-card">
+        <h1>Basic</h1>
+        <p style="font-weight: bold; margin-top: -20px; margin-bottom: 60px; font-size: 2em;">$19.99 / month</p>
+        <div class="features">
+          <ul>
+            <li>Access to gym facilities</li>
+            <li>Free fitness assessment</li>
+            <li>Discount on personal training</li>
+          </ul>
+      </div>
+    </div>
+      <div class="price-card">
+        <h1>Pro</h1>
+        <p style="font-weight: bold; margin-top: -20px; margin-bottom: 60px; font-size: 2em;">$39.99 / month</p>
+        <div class="features">
+          <ul>
+            <li>Access to all gym facilities</li>
+            <li>Free group classes</li>
+            <li>1 personal training session per month</li>
+          </ul>
+      </div></div>
+
+      <div class="price-card">
+        <h1>Elite</h1>
+        <p style="font-weight: bold; margin-top: -20px; margin-bottom: 60px; font-size: 2em;">$59.99 / month</p>
+        <div class="features">
+          <ul>
+            <li>Unlimited access to all facilities</li>
+            <li>Free group classes</li>
+            <li>3 personal training sessions per month</li>
+            <li>Nutrition coaching</li>
+          </ul> 
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="signup" id="signup">
+    <h2 class="signup-title">Sign Up Now</h2>
+    <form class="signup-form">
+      <div class="input-group">
+        <input type="text" class="input"  required placeholder=" " />
+        <label class="name-placeholder">Full Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" class="input"  required placeholder="" />
+        <label class="email-placeholder">Email</label>
+      </div>
+      <div class="input-group">
+        <input type="tel" class="input" required placeholder=" " minlength="8" maxlength="8" />
+        <label class="phone-placeholder">Phone Number</label>
+      </div>
+      <select>
+        <option value="basic">Basic</option>
+        <option value="pro">Pro</option>
+        <option value="elite">Elite</option>
+      </select><br>
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+  </section>
+
+ 
+  <footer>
+    <p class="rights">&copy; 2025 FitZone Gym. All rights reserved.</p>
+  </footer>
+</body>
+</html>
